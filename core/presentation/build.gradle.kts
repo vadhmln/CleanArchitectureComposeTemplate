@@ -27,11 +27,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = libs.versions.jvmTarget.get()
     }
 }
 
@@ -40,6 +40,7 @@ dependencies {
     implementation(project(":core:domain"))
     
     implementation(libs.core.ktx)
+    implementation(libs.lifecycle.viewmodel)
 
     //Hilt
     implementation(libs.hilt.android)

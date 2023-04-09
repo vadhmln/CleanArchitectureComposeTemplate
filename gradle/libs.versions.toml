@@ -2,7 +2,9 @@
 compileSdk = "33"
 hiltAndroidCompiler = "2.44"
 targetSdk = "33"
-minSdk = "26"
+minSdk = "21"
+
+jvmTarget = "17"
 
 gradle-android = "7.4.2"
 kotlin = "1.8.10"
