@@ -18,13 +18,16 @@ jvm = "5.4.1"
 javax = "1"
 
 androidMaterial = "1.8.0"
+material3Size = "1.1.0-beta02"
 constraintLayout = "2.1.4"
 androidxNavigationRuntime = "2.5.3"
 androidxNavigation = "2.5.3"
 androidxFragment = "1.5.6"
 
 activity-compose = "1.7.0"
+navigationCompose = "2.5.3"
 compose-bom = "2023.04.00"
+accompanistNavigationAnimation = "0.22.0-rc"
 
 room = "2.5.1"
 hiltAndroidGradlePlugin = "2.44.2"
@@ -45,6 +48,8 @@ hiltLifecycle = "1.0.0-alpha03"
 [libraries]
 
 #Android
+accompanist-navigation-animation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanistNavigationAnimation" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
 lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidxLifecycle" }
@@ -55,6 +60,7 @@ lifecycle-compiler = { module = "androidx.lifecycle:lifecycle-compiler", version
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "appcompat" }
 android-material = { module = "com.google.android.material:material", version.ref = "androidMaterial" }
+androidx-material3-size = { module = "androidx.compose.material3:material3-window-size-class", version.ref = "material3Size" }
 compose-material3 = { module = "androidx.compose.material3:material3" }
 constraint-layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
 navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidxNavigation" }

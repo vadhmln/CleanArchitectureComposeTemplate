@@ -38,3 +38,4 @@ include(":feature:secondfeature:domain")
 include(":feature:secondfeature:data")
 include(":feature:secondfeature:datasource")
 
+include(":navigation")

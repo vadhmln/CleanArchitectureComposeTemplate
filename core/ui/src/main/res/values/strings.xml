@@ -9,4 +9,5 @@
 
     <string name="first_fragment">FIRST FRAGMENT</string>
     <string name="second_fragment">SECOND FRAGMENT</string>
+    <string name="second_feature">Second Feature</string>
 </resources>

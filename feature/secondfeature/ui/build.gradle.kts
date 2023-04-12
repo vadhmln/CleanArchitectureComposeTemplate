@@ -33,17 +33,31 @@ android {
     kotlinOptions {
         jvmTarget = libs.versions.jvmTarget.get()
     }
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.4.4"
+    }
 }
 
 dependencies {
 
     implementation(project(":core:ui"))
+    implementation(project(":navigation"))
     implementation(project(":core:presentation"))
     implementation(project(":feature:secondfeature:presentation"))
 
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
-    implementation(libs.android.material)
+    implementation(libs.fragment.ktx)
+    implementation(libs.activity.compose)
+    implementation(libs.androidx.navigation.compose)
+    implementation(platform(libs.compose.bom))
+    implementation(libs.ui)
+    implementation(libs.ui.graphics)
+    implementation(libs.ui.tooling.preview)
+    implementation(libs.compose.material3)
 
     //Hilt
     implementation(libs.hilt.android)
