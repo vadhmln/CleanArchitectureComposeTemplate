@@ -35,7 +35,7 @@
 
 # Начало работы
 
-1. Загрузите этот репозиторий и откройте папку CleanArchitectureTemplateAndroidView в Android Studio
+1. Загрузите этот репозиторий и откройте папку CleanArchitectureComposeTemplate в Android Studio
 2. В `app/main/java` переименуйте иерархию "ru.vdh.myapp" в необходимую? выбирая при
    этом `All derectories`.
 3. Проверьте, была ли иерархия в манифесте переименована в соответствии с этим.
