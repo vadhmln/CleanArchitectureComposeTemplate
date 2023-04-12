@@ -55,4 +55,4 @@
 12. Начать разработку :) 
 
 Запускается на:
-Android Studio Electric Eel 
+Android Studio Giraffe
