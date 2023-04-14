@@ -6,8 +6,8 @@ minSdk = "21"
 
 jvmTarget = "17"
 
-gradle-android = "7.4.2"
-kotlin = "1.8.10"
+gradle-android = "8.1.0-alpha11"
+kotlin = "1.8.20"
 
 kotlinxCoroutinesAndroid = "1.6.4"
 
@@ -28,6 +28,7 @@ activity-compose = "1.7.0"
 navigationCompose = "2.5.3"
 compose-bom = "2023.04.00"
 accompanistNavigationAnimation = "0.22.0-rc"
+androidxComposeCompiler = "1.4.5"
 
 room = "2.5.1"
 hiltAndroidGradlePlugin = "2.44.2"
