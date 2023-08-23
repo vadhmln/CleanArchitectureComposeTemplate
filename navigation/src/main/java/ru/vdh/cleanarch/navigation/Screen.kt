@@ -1,7 +1,7 @@
 package ru.vdh.cleanarch.navigation
 
 sealed class Screen(val route:String){
-    object NewFeatureScreen: Screen("NewFeatureScreen")
-    object SecondFeatureScreen: Screen("SecondFeatureScreen?info={info}")
-    object SecondFeatureNavigationRoute: Screen("SecondFeatureNavigation")
+    data object NewFeatureScreen: Screen("NewFeatureScreen")
+    data object SecondFeatureScreen: Screen("SecondFeatureScreen?info={info}")
+    data object SecondFeatureNavigationRoute: Screen("SecondFeatureNavigation")
 }

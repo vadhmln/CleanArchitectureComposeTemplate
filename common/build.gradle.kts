@@ -1,11 +1,11 @@
-@Suppress("DSL_SCOPE_VIOLATION")
+@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "ru.vdh.myapp.navigation"
+    namespace = "ru.vdh.myapp.common"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
@@ -35,13 +35,6 @@ android {
 
 dependencies {
     implementation(libs.core.ktx)
-    implementation (libs.androidx.navigation.compose)
-    implementation (libs.kotlinx.coroutines.android)
-
-    // Accompanist Navigation Animation
-    implementation (libs.accompanist.navigation.animation)
-
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(libs.espresso.core)
+    implementation(libs.appcompat)
+    implementation(libs.compose.material3)
 }

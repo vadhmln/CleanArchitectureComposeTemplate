@@ -42,7 +42,6 @@ android {
 }
 
 dependencies {
-
     implementation(project(":core:ui"))
     implementation(project(":navigation"))
     implementation(project(":core:presentation"))
