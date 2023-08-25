@@ -39,7 +39,7 @@ fun SecondFeatureScreen(navController: NavController) {
                     Text(text = "Second Feature")
                 },
                 navigationIcon = {
-                    IconButton(onClick = {}) {
+                    IconButton(onClick = {navController.navigate(Screen.NewFeatureScreen.route)}) {
                         Icon(Icons.Filled.ArrowBack, "backIcon")
                     }
                 },

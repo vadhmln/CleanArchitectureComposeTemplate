@@ -1,13 +1,13 @@
 [versions]
-compileSdk = "33"
-hiltAndroidCompiler = "2.44"
+compileSdk = "34"
+hiltAndroidCompiler = "2.47"
 targetSdk = "33"
 minSdk = "21"
 
 jvmTarget = "17"
 
 gradle-android = "8.1.1"
-kotlin = "1.9.0"
+kotlin = "1.8.20"
 
 kotlinxCoroutinesAndroid = "1.7.3"
 
@@ -21,17 +21,17 @@ androidMaterial = "1.9.0"
 material3Size = "1.2.0-alpha05"
 constraintLayout = "2.1.4"
 androidxNavigationRuntime = "2.5.3"
-androidxNavigation = "2.7.0"
+androidxNavigation = "2.7.1"
 androidxFragment = "1.6.1"
 
 activity-compose = "1.7.2"
-navigationCompose = "2.7.0"
+navigationCompose = "2.7.1"
 compose-bom = "2023.08.00"
 accompanistNavigationAnimation = "0.22.0-rc"
 androidxComposeCompiler = "1.4.5"
 
 room = "2.5.2"
-hiltAndroidGradlePlugin = "2.44.2"
+hiltAndroidGradlePlugin = "2.47"
 
 datastorePreferences = "1.0.0"
 
@@ -45,7 +45,7 @@ espressoCore = "3.5.1"
 mockitoCore = "4.5.1"
 mockitoKotlin = "4.1.0"
 
-hilt = "2.44.2"
+hilt = "2.47"
 hiltLifecycle = "1.0.0-alpha03"
 
 [libraries]

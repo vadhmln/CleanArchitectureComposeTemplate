@@ -46,7 +46,7 @@ class NewFeatureDataModule {
         newFeatureDataToDataSourceMapper: NewFeatureDataToDataSourceMapper
     ): NewFeatureRepository = NewFeatureRepositoryImpl(
         newFeatureDataSource = newFeatureDataSource,
-        newFeatureDataToDomainMapper,
-        newFeatureDataToDataSourceMapper
+        newFeatureDataToDomainMapper = newFeatureDataToDomainMapper,
+        newFeatureDataToDataSourceMapper = newFeatureDataToDataSourceMapper
     )
 }

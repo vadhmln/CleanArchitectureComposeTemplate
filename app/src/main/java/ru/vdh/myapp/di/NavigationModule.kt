@@ -1,10 +1,6 @@
 package ru.vdh.myapp.di
 
-import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.NavHostFragment
 import dagger.Module
-import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
 
@@ -12,11 +8,4 @@ import dagger.hilt.android.components.ActivityComponent
 @InstallIn(ActivityComponent::class)
 class NavigationModule {
 
-    @Provides
-    fun providesSupportFragmentManager(activity: Activity) =
-        (activity as AppCompatActivity).supportFragmentManager
-
-    @Provides
-    fun providesNavController(navHostFragment: NavHostFragment) =
-        navHostFragment.navController
 }
